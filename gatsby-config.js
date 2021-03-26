@@ -2,7 +2,7 @@ module.exports = {
   siteMetadata: {
     title: 'La Boite du Santon',
     description: 'Wonderful Provence boxes of wines and delicatessen from the South of France',
-    url: 'https://www.laboitedusanton.com',
+    siteUrl: 'https://www.laboitedusanton.com',
     titleTemplate: '%s',
     image: '',
   },
