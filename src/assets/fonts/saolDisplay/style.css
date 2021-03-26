@@ -1,0 +1,48 @@
+@font-face {
+    font-family: 'Saol Display';
+    src: url('SaolDisplay-Regular.eot');
+    src: url('SaolDisplay-Regular.eot?#iefix') format('embedded-opentype'),
+        url('SaolDisplay-Regular.woff2') format('woff2'),
+        url('SaolDisplay-Regular.woff') format('woff'),
+        url('SaolDisplay-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Saol Display';
+    src: url('SaolDisplay-RegularItalic.eot');
+    src: url('SaolDisplay-RegularItalic.eot?#iefix') format('embedded-opentype'),
+        url('SaolDisplay-RegularItalic.woff2') format('woff2'),
+        url('SaolDisplay-RegularItalic.woff') format('woff'),
+        url('SaolDisplay-RegularItalic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Saol Display';
+    src: url('SaolDisplay-Medium.eot');
+    src: url('SaolDisplay-Medium.eot?#iefix') format('embedded-opentype'),
+        url('SaolDisplay-Medium.woff2') format('woff2'),
+        url('SaolDisplay-Medium.woff') format('woff'),
+        url('SaolDisplay-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Saol Display';
+    src: url('SaolDisplay-MediumItalic.eot');
+    src: url('SaolDisplay-MediumItalic.eot?#iefix') format('embedded-opentype'),
+        url('SaolDisplay-MediumItalic.woff2') format('woff2'),
+        url('SaolDisplay-MediumItalic.woff') format('woff'),
+        url('SaolDisplay-MediumItalic.ttf') format('truetype');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+

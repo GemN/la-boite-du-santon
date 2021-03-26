@@ -1,0 +1,20 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  font-family: "Sweet Sans Pro", Arial, sans-serif;
+  background-color: #d9d2bc;
+}
+
+h1, h2 {
+  font-family: "Saol Display", Arial, serif;
+}
+
+h2 {
+  font-size: 72px;
+  margin: 0;
+  font-weight: normal;
+}
