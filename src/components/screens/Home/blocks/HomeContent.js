@@ -1,5 +1,7 @@
 import React, { memo } from 'react';
-import { ContainerContent, Description, ImgBoiteSanton } from './HomeContent.styles';
+import {
+  ContainerContent, Description, ImgBoiteSanton, MobileImgBoiteSanton,
+} from './HomeContent.styles';
 import I from '../../../ui/I';
 
 const HomeContent = () => (
@@ -14,6 +16,7 @@ const HomeContent = () => (
       Every month get a taste of french provence to spice your quarantine zoom calls.
     </Description>
     <ImgBoiteSanton />
+    <MobileImgBoiteSanton />
   </ContainerContent>
 );
 

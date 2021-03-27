@@ -1,10 +1,14 @@
 import styled from 'styled-components';
+import media from '../../../helpers/media';
 
 export const ContainerNavbar = styled.div`
   display: flex;
   flex-direction: row;
   padding: 20px 32px;
   align-items: center;
+  ${media.phone`
+    padding: 16px;
+  `}
 `;
 
 export const ContainerLinks = styled.div`

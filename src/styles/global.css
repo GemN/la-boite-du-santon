@@ -18,3 +18,10 @@ h2 {
   margin: 0;
   font-weight: normal;
 }
+
+
+@media screen and (max-width: 576px) {
+  h2 {
+    font-size: 36px;
+  }
+}

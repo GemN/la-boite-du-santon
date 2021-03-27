@@ -1,6 +1,7 @@
 import React, { memo } from 'react';
 import styled from 'styled-components';
 import Logo from './Logo';
+import media from '../../helpers/media';
 
 const ContainerFooter = styled.div`
   background: #d9d2bc;
@@ -10,6 +11,9 @@ const ContainerFooter = styled.div`
   flex-direction: row;
   justify-content: center;
   align-items: center;
+  ${media.phone`
+    padding: 22px 16px;
+  `}
 `;
 
 const Copyright = styled.div`

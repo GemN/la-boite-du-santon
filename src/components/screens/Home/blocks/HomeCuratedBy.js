@@ -1,6 +1,6 @@
 import React, { memo } from 'react';
 import I from '../../../ui/I';
-import { ContainerCuratedBy, ImgCuratedBy } from './HomeCuratedBy.styles';
+import { ContainerCuratedBy, ImgCuratedBy, MobileImgCuratedBy } from './HomeCuratedBy.styles';
 
 const HomeCuratedBy = () => (
   <ContainerCuratedBy>
@@ -11,6 +11,7 @@ const HomeCuratedBy = () => (
       —MAMIE
     </h2>
     <ImgCuratedBy />
+    <MobileImgCuratedBy />
   </ContainerCuratedBy>
 );
 

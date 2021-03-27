@@ -1,9 +1,13 @@
 import styled from 'styled-components';
 import bgRedCircle from '../../../assets/images/redcircle.svg';
+import media from '../../../helpers/media';
 
 export const Background = styled.div`
   background: #dcb284;
   padding: 88px 16px;
+  ${media.phone`
+    padding: 44px 16px;
+  `}
 `;
 export const ContainerSignup = styled.div`
   margin: auto;
@@ -19,11 +23,18 @@ export const ContainerSignup = styled.div`
 export const Discount = styled.p`
   font-size: 40px;
   margin-top: 120px;
+  ${media.phone`
+    font-size: 21px;
+    margin-top: 59px;
+  `}
 `;
 
 export const ContainerInfoSignup = styled.div`
   background: url(${bgRedCircle}) no-repeat center center;
   background-size: 268px 268px;
+  ${media.phone`
+    background-size: 134px 134px;
+  `}
 `;
 
 export const InputEmail = styled.input`
@@ -43,6 +54,13 @@ export const InputEmail = styled.input`
     outline: none;
     border-color: rgba(255, 255, 255, 0.4);
   }
+  ${media.phone`
+    height: 42px;
+    padding: 12px 16px;
+    width: 100%;
+    margin-right: 0;
+    margin-bottom: 10px;
+  `}
 `;
 export const ButtonSignupNewsletter = styled.button`
   height: 56px;
@@ -67,18 +85,28 @@ export const ButtonSignupNewsletter = styled.button`
   &:disabled {
     background-color: rgba(0, 0, 0, 0.1);
   }
+  ${media.phone`
+    height: 42px;
+      width: 100%;
+  `}
 `;
 export const ContainerInput = styled.div`
   display: flex;
   flex-direction: column;
   width: 100%;
   margin-top: 56px;
+  ${media.phone`
+    margin-top: 26px;
+  `}
 `;
 export const InputRow = styled.div`
   display: flex;
   flex-direction: row;
   align-items: center;
   width: 100%;
+  ${media.phone`
+    flex-direction: column;
+  `}
 `;
 
 export const InfoMsg = styled.div`
